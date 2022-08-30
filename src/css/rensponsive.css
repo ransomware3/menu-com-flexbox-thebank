@@ -1,0 +1,37 @@
+@media(max-width: 825px){
+
+    .cabecalho{
+        flex-flow: column wrap;
+        justify-content: space-around;
+        align-items: center;
+        height: auto;
+    }
+
+
+    .logo{
+        margin: 40px 0;
+    }
+
+
+    .logo h1{
+        font-size: 40px;
+    }
+
+
+    .menu .lista-menu{
+        flex-direction: column;
+    }
+
+
+    .menu .lista-menu li{
+        margin-top: 50px;
+        margin-left: 0;
+    }
+
+
+    .menu .lista-menu li a{
+        font-size: 40px;
+        padding: 16px 40px;
+    }
+
+}

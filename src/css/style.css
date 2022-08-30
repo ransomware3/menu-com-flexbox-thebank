@@ -1,0 +1,73 @@
+.cabecalho{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 50px;
+    width: 100%;
+    max-width: 1421px;
+    height: 426px;
+}
+
+
+.logo{
+    display: flex;
+    height: 45px;
+    gap: 5px;
+    align-items: center;
+}
+
+
+.logo img{
+    width: 45px;
+    height: 42px;
+}
+
+
+.logo h1{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+.menu .lista-menu{
+    display: flex;
+    align-items: center;
+}
+
+
+.menu .lista-menu li{
+    margin-left: 20px;
+    font-weight: 400;
+}
+
+
+.menu .lista-menu li a{
+    transition: 0.3s ease-in-out;
+    padding: 11px 7px;
+}
+
+
+.menu .lista-menu li a:hover{
+    color: #fff;
+    background-color: var(--cor-padrao);
+}
+
+
+.btn-cadastro{
+    background-color: var(--cor-padrao);
+    border: none;
+    color: #fff;
+    padding: 11px 21px;
+    border-radius: 10px;
+    width: 127px;
+    height: 39px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 300;
+    transition: 0.3s ease-in-out;
+}
+
+
+.btn-cadastro:hover{
+    background-color: var(--cor-hover);
+}
